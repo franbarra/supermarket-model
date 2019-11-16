@@ -1,4 +1,5 @@
 # supermarket-model
+(UNFINISHED)
 Supermarket simulation project. First university project for programming class.
 Made in Python 3.6.8
 ### Language
