@@ -28,3 +28,5 @@ descuento.
 [x] Si el producto vence en una semana hacer un 10% de descuento.
 [ ] Determinar el producto más vendido dependiendo del tipo de producto.
 ```
+
+The last objective has not been completed because it requires a `'Tipo de Producto'` key in my inventory dictionary that I'm unwilling to fill in.
