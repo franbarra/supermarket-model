@@ -6,14 +6,14 @@
 |HECHO| Actualizar el precio unitario de un producto determinado en un cierto procentaje.
 |HECHO| Determinar la existencia de un producto para poder vender la cantidad solicitada.
 |HECHO| Reponer un producto cuando el stock está por debajo de un mínimo requerido.
-2 Pedir los datos de un cliente para hacer envío a domicilio.
-4 Determinar cuál es el artículo más vendido.
+|HECHO| Pedir los datos de un cliente para hacer envío a domicilio.
+|HECHO| Determinar cuál es el artículo más vendido.
 |HECHO| Eliminar del supermercado (guardarlos en un otro diccionario) los artículos que estén
 vencidos.
 |HECHO| Simular la venta a un cliente y emitir el ticket de venta.
-2 Agregar información adicional al producto para saber si un determinado producto tiene o no
+|HECHO| Agregar información adicional al producto para saber si un determinado producto tiene o no
 descuento.
-1 Si el producto vence en una semana hacer un 10% de descuento.
+|HECHO| Si el producto vence en una semana hacer un 10% de descuento.
 4 Determinar el producto más vendido dependiendo del tipo de producto.
 '''
 
@@ -46,7 +46,7 @@ def cobrarCliente():
 
     next = input("(P)roximo cliente o (S)alir? ")
     if(next == "p" or next == "P"):
-        procesoPrincipal()
+        cobrarCliente()
     else:
         exit()
 
@@ -62,5 +62,7 @@ if eleccion_usuario == 1:
     cobrarCliente()
 if eleccion_usuario == 2:
     miSupermercado.administrarSupermercado()
+if eleccion_usuario == 3:
+    miSupermercado.imprimirInformacionExtra()
 else:
     exit()
