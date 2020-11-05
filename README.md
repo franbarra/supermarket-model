@@ -33,7 +33,3 @@ The last objective has not been completed because it requires a `'Tipo de Produc
 
 ### Problems
 I started implementing a solution to the assignment right away without planning or design. In hindsight, this would obviously lead to problems thereafter but, with my inexperience it wasn't clear at the time. Thus, the structure ofthe code is bad. I had coded a structure that supported classes and would create instances of the objects, but halfway into the project decided that it was best to work directly with a dictionary. It was easier for me to manipulate strings and dictionaries than to work with classes. I was very ambicious and tried to punch above my weight.
-
---Project Coded as (01/12/2019), --Hindsight as (17/01/2020).
-
-I suppose I will restructure the code sometime soon during summer in order to make it more clean and will opt for one of the two structures: a) keep working with dictionaries or b) create a program that supports object's instances; and work with that.
